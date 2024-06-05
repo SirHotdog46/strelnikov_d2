@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css\style.css"/>
+</head>
+<body>
+    
+        <header>
+                <!-- Лого -->
+                <img src="arts/logo.png" alt="logo"/>
+
+            
+            <nav>
+
+                <a href="index.html">Акции</a>
+                <a href="search.html">Поиск</a>
+                <a href="booking.html">Регистрация на рейс</a>
+                <a href="login.html">Личный кабинет</a>
+
+            </nav>
+        </header>
+
+
+    
+    <section class="prompt">
+        <div>
+            <img src="arts/promotion1.jpg" alt="Promp_1"/>
+            <h5>Returning and Changing Your Tickets</h5>
+            <p>The pandemic has changed many travelers’ plans, but we know that it will not last forever. 
+                Once all of this is over, we will continue exploring this world the way we used to. 
+                Special rules that have been developed for this challenging situation will help you cancel your trip
+                or postpone it until later.</p>
+        </div>
+        
+        <div>
+            <img src="arts/promotion2.jpg" alt="Promp_2"/>
+            <h5>Best offers</h5>
+            <p>To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+                what you’ve come through. And to think of new dreams that will be so special!
+                </p>
+        </div>
+
+        <div>
+            <img src="arts/promotion3.jpg" alt="Promp_3"/>
+            <h5>See you more often</h5>
+            <p>Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                see your loved ones more often. Choose our company to fly to where you are always expected.</p>
+        </div>
+
+        <div>
+            <img src="arts/promotion4.jpg" alt="Promp_4"/>
+            <h5>Everything is on again</h5>
+            <p>From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+                a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
+        </div>
+
+    </section>
+
+    <section class="vvod">
+        <form action="URL">
+            <div>
+                <label for="from">Откуда:</label>
+                <input type="text" name="from"/>
+            </div>
+
+            <div>
+                <label for="where">Куда:</label>
+                <input type="text" name="where"/>
+            </div>
+
+            <div>
+                <label for="there">Туда:</label>
+                <input type="date" name="there"/>
+            </div>
+
+            <div>
+                <label for="back">Обратно:</label>
+                <input type="date" name="back"/>
+            </div>
+
+            <!-- Количество пассажиров (от 1 до 8 включительно)-->
+            <div>
+                <label for="num">Количество пассажиров:</label>
+                <input type="number" name="num" min="1" max="8" style="width: 35px;"/>
+            </div>
+
+
+            <!-- Кнопка для поиска билетов  -->
+            <div>
+                <button type="submit" name="bth1">Найти билеты</button>
+            </div>
+
+        </form>
+    </section>
+
+
+    <footer>
+        <div>8 (800) 100-10-10</div>
+    </footer>
+    
+    
+</body>
+</html>
